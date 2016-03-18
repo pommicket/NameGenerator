@@ -14,3 +14,5 @@ Windows
 ```
 NameGenerator (number of names)
 ```
+
+To compile the source, just run `make` in the src directory.
