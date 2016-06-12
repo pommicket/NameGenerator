@@ -3,13 +3,13 @@ A computer program that generates names using the frequency of trigrams (three l
 
 To run NameGenerator:
 
-GNU/Linux
+**GNU/Linux**
 
 ```
 ./NameGenerator
 ```
 
-Windows
+**Windows**  
 Run NameGenerator.exe
 
 To compile the source, just run `make` in the src directory.
