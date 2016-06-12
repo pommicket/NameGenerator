@@ -1,18 +1,15 @@
 # NameGenerator
 A computer program that generates names using the frequency of trigrams (three letter combinations)
 
-To run NameGenerator (run the following command in Terminal/Command Prompt in the directory of NameGenerator):
+To run NameGenerator:
 
 GNU/Linux
 
 ```
-./NameGenerator (number of names)
+./NameGenerator
 ```
 
 Windows
-
-```
-NameGenerator (number of names)
-```
+Run NameGenerator.exe
 
 To compile the source, just run `make` in the src directory.

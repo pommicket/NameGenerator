@@ -18,18 +18,17 @@ int main(int argc, char** argv)
 {
     struct timeval t;
     int i;
+    int number;
+    
+    printf("Number of names: ");
+    scanf("%d", &number);
     
     gettimeofday(&t, NULL);
     srand(t.tv_sec * 1000000 + t.tv_usec);
 
-    if (argc < 2)
-    {
-        fprintf(stderr, "Error: Usage: %s [number of names]\n", argv[0]);
-	return 1;
-    }
     trigrams = loadTrigrams("trigrams.txt");
     
-    for (i = 0; i < atoi(argv[1]); i++)
+    for (i = 0; i < number; i++)
         printf("%s\n", createName(trigrams));
 
     return 0;
